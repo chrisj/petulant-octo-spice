@@ -1,0 +1,25 @@
+{
+  "name": "petulant-octo-spice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "codecov.io": "0.0.8",
+    "istanbul": "^0.3.6",
+    "mocha": "^2.1.0",
+    "should": "^5.0.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisj/petulant-octo-spice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisj/petulant-octo-spice/issues"
+  },
+  "homepage": "https://github.com/chrisj/petulant-octo-spice"
+}

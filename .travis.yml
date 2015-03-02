@@ -1,0 +1,3 @@
+language: node_js
+
+after_script: "npm install codecov.io && cat ./coverage/lcov.info | codecov"
